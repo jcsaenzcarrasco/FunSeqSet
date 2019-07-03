@@ -26,4 +26,4 @@ Now, we are ready to compile our first module. We will show the *heap* version b
 
 
 ## Performing an experiment
-In order to obtaing the results as in ![github-small]()
+In order to obtaing the results as in ![github-small](https://github.com/jcsaenzcarrasco/FunSeqSet/blob/master/figs/Fig1.pdf), we 

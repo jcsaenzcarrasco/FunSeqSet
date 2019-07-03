@@ -15,7 +15,7 @@ then
 
 > cabal install edisoncore 
 
-both accesible from the library repository Hackage.
+both accesible from the [Hackage library repository] at (http://hackage.haskell.org/package/random-1.1) and (https://hackage.haskell.org/package/EdisonCore-1.3.2.1) respectively.
 
 Now, we are ready to compile our first module. We will show the *heap* version but the correspoding *set* is easily mirrored
 

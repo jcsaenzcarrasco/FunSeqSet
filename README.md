@@ -17,6 +17,7 @@ then
 
 both accesible from the [Hackage library repository] at (http://hackage.haskell.org/package/random-1.1) and (https://hackage.haskell.org/package/EdisonCore-1.3.2.1) respectively.
 
+## Compilation process
 Now, we are ready to compile our first module. We will show the *heap* version but the correspoding *set* is easily mirrored
 
 > ghc -O2 -o dt   readDynTsHeap.hs
@@ -24,3 +25,5 @@ Now, we are ready to compile our first module. We will show the *heap* version b
 > ghc -O2 -o conn readConnHeap.hs
 
 
+## Performing an experiment
+In order to obtaing the results as in ![github-small]()

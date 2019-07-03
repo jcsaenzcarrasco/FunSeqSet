@@ -26,4 +26,8 @@ Now, we are ready to compile our first module. We will show the *heap* version b
 
 
 ## Performing an experiment
-In order to obtaing the results as in ![github-small](https://github.com/jcsaenzcarrasco/FunSeqSet/blob/master/figs/Fig1.pdf), we 
+In order to obtaing the results as in ![Fig1](https://github.com/jcsaenzcarrasco/FunSeqSet/blob/master/figs/Fig1.pdf), we run the following
+
+> time ./dt 5000 txts/link--19992-82888-20000-0-19.txt 
+
+The above executes 5,000 *link* operations over a forest of 20,000 node-size. The file-argument can be found in the present repository

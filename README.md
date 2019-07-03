@@ -8,12 +8,19 @@ The main module is "EF**x**.hs", where **x** is either _sets_ or _heap_. Next, w
 
 Prior to build up our first executable file, we need to verify we have installed the corresponding libraries for randomness and the semi-lazy structure LazyPairingHeap. We can do this through **cabal**. For the first library simply run 
 > cabal update
+
 > cabal install random
+
 then
+
 > cabal install edisoncore 
+
 both accesible from the library repository Hackage.
 
 Now, we are ready to compile our first module. We will show the *heap* version but the correspoding *set* is easily mirrored
+
 > ghc -O2 -o dt   readDynTsHeap.hs
+
 > ghc -O2 -o conn readConnHeap.hs
+
 
